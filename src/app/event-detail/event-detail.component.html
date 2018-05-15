@@ -1,0 +1,56 @@
+<div class='panel panel-success' *ngIf='event'>
+    <div class='panel-heading'>
+        {{pageTitle + ': ' + event?.eventName}}
+    </div>
+    <div class='panel-body'>
+        <div class='table-responsive'>
+            <table class='table table-bordered table-striped' *ngIf='event'>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Field Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Event Id</td>
+                        <td>{{event.eventId}}</td>
+                    </tr>
+                    <tr>
+                        <td>Event Name</td>
+                        <td>{{event?.eventName}}</td>
+                    </tr>
+                    <tr>
+                        <td>Event Code</td>
+                        <td>{{ event.eventCode | lowercase | convertToSpaces : '-' }}</td>
+
+                    </tr>
+                    <tr>
+                        <td>Event Date</td>
+                        <td>{{event?.eventDate}}</td>
+                    </tr>
+                    <tr>
+                        <td>Event Description</td>
+                        <td>{{event?.description}}</td>
+                    </tr>
+                    <tr>
+                        <td>5 Star Rating</td>
+                        <td>
+                            <app-star [rating]='event.starRating' (ratingClicked)='onRatingClicked($event)'>
+                            </app-star>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Presented By</td>
+                        <td>{{ event.presenters }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class='panel-footer'>
+        <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back
+        </a>
+    </div>
+</div>

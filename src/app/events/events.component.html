@@ -1,0 +1,53 @@
+<div class='panel panel-success'>
+  <div class='panel-heading'>
+    {{pageTitle}}
+  </div>
+  <div class='panel-body'>
+    <div class='row'>
+      <div class='col-md-2'>Filter by:</div>
+      <div class='col-md-4'>
+        <input type='text' [(ngModel)]='listFilter' />
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-6'>
+        <h3>Filtered by: {{listFilter}} </h3>
+      </div>
+    </div>
+    <div class='table-responsive'>
+      <table class='table table-bordered table-striped' *ngIf='events && events.length'>
+        <thead>
+          <tr>
+            <th (click)="performSort('eventId')">Event Id</th>
+            <th (click)="performSort('eventName')">Event Name</th>
+            <th (click)="performSort('eventDate')">Event Date</th>
+            <th (click)="performSort('description')">Event Description</th>
+            <th (click)="performSort('starRating')">5 Star Rating</th>
+            <th (click)="performSort('presenters')">Presented By</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor='let event of filteredEvents;  let i=index'>
+            <td>
+              <!--<span>{{i+1}}</span>-->
+              <span>{{event.eventId}}</span>
+            </td>
+            <td><a [routerLink]="['/events', event.eventId]">{{ event.eventName }}</a></td>
+            <td>{{ event.eventDate }}</td>
+            <td>
+              {{ event.description }}
+            </td>
+            <td>
+              <app-star [rating]='event.starRating'
+                                (ratingClicked)='onRatingClicked($event)'>
+							</app-star>
+            </td>
+            <td>
+              {{ event.presenters }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

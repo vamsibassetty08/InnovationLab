@@ -1,0 +1,245 @@
+[
+    {
+        "eventId": 1,
+        "eventName": "Angular JS",
+        "eventCode": "EVT-1-001",
+        "eventDate": "January 23, 2018",
+        "description": "Client Side frameworks - AngularJS",
+        "starRating": 3.6,
+        "presenters": "Gnanadeep P"
+    },
+    {
+        "eventId": 2,
+        "eventName": "Typescript",
+        "eventCode": "EVT-1-002",
+        "eventDate": "January 24, 2018",
+        "description": "Client Side frameworks - Typescript",
+        "starRating": 2.2,
+        "presenters": "Sai Priya K, RamaKrishna N"
+    },
+    {
+        "eventId": 3,
+        "eventName": "Angular",
+        "eventCode": "EVT-1-003",
+        "eventDate": "January 25, 2018",
+        "description": "Client Side frameworks - Angular",
+        "starRating": 4.5,
+        "presenters": "Ugendar K, Niharika B, Sravanthi B, VamsiKrishna B"
+    },
+    {
+        "eventId": 4,
+        "eventName": "Machine Learning - Basics",
+        "eventCode": "EVT-2-001",
+        "eventDate": "February 1, 2018",
+        "description": "Machine Learning with Python, R Language",
+        "starRating": 3.6,
+        "presenters": "Abhishek B"
+    },
+    {
+        "eventId": 5,
+        "eventName": "Machine Learning - Advanced",
+        "eventCode": "EVT-2-002",
+        "eventDate": "January 2, 2018",
+        "description": "Machine Learning with Python, R Language",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 6,
+        "eventName": "MarkLogic - Basics",
+        "eventCode": "EVT-3-001",
+        "eventDate": "February 8, 2018",
+        "description": "MarkLogic - NoSQL Documents DB with Javascript, X-Query & NodeJS",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 7,
+        "eventName": "MarkLogic - Advanced",
+        "eventCode": "EVT-3-002",
+        "eventDate": "February 9, 2018",
+        "description": "MarkLogic - NoSQL Documents DB with Javascript, X-Query & NodeJS",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 8,
+        "eventName": "RPA - Basics",
+        "eventCode": "EVT-4-001",
+        "eventDate": "February 13, 2018",
+        "description": "Robotic Process Automation with UIPath",
+        "starRating": 2.5,
+        "presenters": "Vishwa M"
+    },
+    {
+        "eventId": 9,
+        "eventName": "RPA - Advanced",
+        "eventCode": "EVT-4-002",
+        "eventDate": "February 14, 2018",
+        "description": "Robotic Process Automation with UIPath",
+        "starRating": 4.2,
+        "presenters": "Vishwa M"
+    },
+    {
+        "eventId": 10,
+        "eventName": "Angular JS",
+        "eventCode": "EVT-5-001",
+        "eventDate": "February 23, 2018",
+        "description": "Client Side frameworks - AngularJS",
+        "starRating": 3.6,
+        "presenters": "Gnanadeep P"
+    },
+    {
+        "eventId": 11,
+        "eventName": "Typescript",
+        "eventCode": "EVT-5-002",
+        "eventDate": "February 24, 2018",
+        "description": "Client Side frameworks - Typescript",
+        "starRating": 2.2,
+        "presenters": "Sai Priya K, RamaKrishna N"
+    },
+    {
+        "eventId": 12,
+        "eventName": "Angular",
+        "eventCode": "EVT-5-003",
+        "eventDate": "February 25, 2018",
+        "description": "Client Side frameworks - Angular",
+        "starRating": 4.5,
+        "presenters": "Ugendar K, Niharika B, Sravanthi B, VamsiKrishna B"
+    },
+    {
+        "eventId": 13,
+        "eventName": "Machine Learning - Basics",
+        "eventCode": "EVT-6-001",
+        "eventDate": "March 1, 2018",
+        "description": "Machine Learning with Python, R Language",
+        "starRating": 3.6,
+        "presenters": "Abhishek B"
+    },
+    {
+        "eventId": 14,
+        "eventName": "Machine Learning - Advanced",
+        "eventCode": "EVT-6-002",
+        "eventDate": "March 2, 2018",
+        "description": "Machine Learning with Python, R Language",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 15,
+        "eventName": "MarkLogic - Basics",
+        "eventCode": "EVT-7-001",
+        "eventDate": "March 8, 2018",
+        "description": "MarkLogic - NoSQL Documents DB with Javascript, X-Query & NodeJS",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 16,
+        "eventName": "MarkLogic - Advanced",
+        "eventCode": "EVT-7-002",
+        "eventDate": "March 9, 2018",
+        "description": "MarkLogic - NoSQL Documents DB with Javascript, X-Query & NodeJS",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 17,
+        "eventName": "RPA - Basics",
+        "eventCode": "EVT-8-001",
+        "eventDate": "March 13, 2018",
+        "description": "Robotic Process Automation with UIPath",
+        "starRating": 2.5,
+        "presenters": "Vishwa M"
+    },
+    {
+        "eventId": 18,
+        "eventName": "RPA - Advanced",
+        "eventCode": "EVT-8-002",
+        "eventDate": "March 14, 2018",
+        "description": "Robotic Process Automation with UIPath",
+        "starRating": 4.2,
+        "presenters": "Vishwa M"
+    },
+    {
+        "eventId": 19,
+        "eventName": "Machine Learning - Basics",
+        "eventCode": "EVT-9-001",
+        "eventDate": "March 21, 2018",
+        "description": "Machine Learning with Python, R Language",
+        "starRating": 3.6,
+        "presenters": "Abhishek B"
+    },
+    {
+        "eventId": 20,
+        "eventName": "Machine Learning - Advanced",
+        "eventCode": "EVT-9-002",
+        "eventDate": "March 22, 2018",
+        "description": "Machine Learning with Python, R Language",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 21,
+        "eventName": "MarkLogic - Basics",
+        "eventCode": "EVT-10-001",
+        "eventDate": "March 28, 2018",
+        "description": "MarkLogic - NoSQL Documents DB with Javascript, X-Query & NodeJS",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 22,
+        "eventName": "MarkLogic - Advanced",
+        "eventCode": "EVT-10-002",
+        "eventDate": "March 29, 2018",
+        "description": "MarkLogic - NoSQL Documents DB with Javascript, X-Query & NodeJS",
+        "starRating": 3.6,
+        "presenters": "Naga G"
+    },
+    {
+        "eventId": 23,
+        "eventName": "RPA - Basics",
+        "eventCode": "EVT-11-001",
+        "eventDate": "April 2, 2018",
+        "description": "Robotic Process Automation with UIPath",
+        "starRating": 2.5,
+        "presenters": "Vishwa M"
+    },
+    {
+        "eventId": 24,
+        "eventName": "RPA - Advanced",
+        "eventCode": "EVT-11-002",
+        "eventDate": "April 3, 2018",
+        "description": "Robotic Process Automation with UIPath",
+        "starRating": 4.2,
+        "presenters": "Vishwa M"
+    },
+    {
+        "eventId": 25,
+        "eventName": "Angular JS",
+        "eventCode": "EVT-12-001",
+        "eventDate": "April 10, 2018",
+        "description": "Client Side frameworks - AngularJS",
+        "starRating": 3.6,
+        "presenters": "Gnanadeep P"
+    },
+    {
+        "eventId": 26,
+        "eventName": "Typescript",
+        "eventCode": "EVT-12-002",
+        "eventDate": "April 11, 2018",
+        "description": "Client Side frameworks - Typescript",
+        "starRating": 2.2,
+        "presenters": "Sai Priya K, RamaKrishna N"
+    },
+    {
+        "eventId": 27,
+        "eventName": "Angular",
+        "eventCode": "EVT-12-003",
+        "eventDate": "April 12, 2018",
+        "description": "Client Side frameworks - Angular",
+        "starRating": 4.5,
+        "presenters": "Ugendar K, Niharika B, Sravanthi B, VamsiKrishna B"
+    }
+]
